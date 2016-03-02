@@ -379,7 +379,7 @@ The following options are allowed:
   - `lineWidth` //line width for New England states, default: 1
   - `fontSize` //font size, default: 10
   - `fontFamily` //font family, default: 'Verdana'
-  - `customLabelText` //replaces 2 letter labels with custom 
+  - `customLabelText` //replaces 2 letter labels with custom
 
 An example for using the options:
 
@@ -389,7 +389,7 @@ map.labels({labelColor: 'blue', fontSize: 12});
 
 An example for using the customLabelText
 
-This accepts an object whose keys are uppercase 2 letter state codes. 
+This accepts an object whose keys are uppercase 2 letter state codes.
 Values will be substituted for default label text
 Any missing values default to 2 state letters
 ```javascript
